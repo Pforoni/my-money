@@ -1,0 +1,25 @@
+{
+  "name": "mymoney",
+  "version": "1.0.0",
+  "description": "Investments dashboard app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "8.x.x"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "forest-express-sequelize": "^3.2.3",
+    "pg": "^7.11.0",
+    "sequelize": "^5.8.12"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^5.5.0"
+  }
+}
